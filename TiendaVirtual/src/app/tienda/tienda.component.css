@@ -1,0 +1,85 @@
+.tiendaBackground{
+    width: 100%;
+    height: 90vh;
+}
+
+.titleTienda{
+    display: flex;
+    margin-top: 10vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 2.2vw;
+}
+
+.tiendaContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.productosContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    height: 70vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.cajaProducto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.3vw;
+    margin-right: 1.3vw;
+    width: 16vw;
+    height: 55vh;
+    padding-top: 1vh;
+}
+
+.cajaProducto:hover{
+    transition: all 0.2s ease-out;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.47);
+    padding-top: 0;
+}
+
+.fotoproduc{
+    width: 100%;
+    height: 30vh;
+    background-image: url('../../assets/celular.png');
+    background-size: 88% 88%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.precio{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    margin-left: 0.1vw;
+    margin-top: 0.2vh;
+    color: red;
+}
+
+.desc{
+    margin-top: 1vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+button{
+    width: 55%;
+    height: 6vh;
+    margin-top: 5.5vh;
+    margin-left: 3vw;
+    background-color: #00953b;
+    border: #00953b;
+    border-radius: 0.9vw;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1.1em;
+}

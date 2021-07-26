@@ -1,0 +1,31 @@
+<div class="carritoBackground">
+    <div class="tituloCarrito">
+        Tu compra es 100% segura
+    </div>
+    <div class="separator"></div>
+    <div class="carritoContainer">
+        <div class="contIzq">
+            <div class="cajaClass">
+                <div class="producto">Producto</div>
+                <div class="blancspace"></div>
+                <div class="precio">Precio</div>
+                <div class="cantidad">Cantidad</div>
+                <div class="total">Total</div>
+            </div>
+
+            <app-row-carrito *ngFor='let producto of productos'></app-row-carrito>
+        </div>
+
+        <div class="separator2"></div>
+
+        <div class="contDer">
+            <div class="tituloCompra">
+                <span class="spantotal">Total</span>
+                <span class="numerototal">$0</span>
+            </div>
+            <button (click)='onBuyAction()'>Finalizar compra</button>
+            <button style="margin-top: 2vh; background-color: white; color: #00953b; border: 1px solid #00953b; font-weight: lighter;" (click)='onEmpty()'>Vaciar carrito</button>
+            <button style="margin-top: 2vh; background-color: white; color: #00953b; border: 1px solid #00953b; font-weight: lighter;" (click)='onKeepBuying()'>Seguir comprando</button>
+        </div>
+    </div>
+</div>

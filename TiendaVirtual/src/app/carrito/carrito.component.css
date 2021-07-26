@@ -1,0 +1,212 @@
+.carritoBackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+}
+
+.tituloCarrito{
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 2.2vw;
+}
+
+.separator{
+    width: 100%;
+    height: 0.2vh;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.carritoContainer{
+    display: flex;
+    margin-top: 5vh;
+    width: 100%;
+    height: 100%;
+}
+
+.contIzq{
+    width: 60vw;
+    height: 100%;
+}
+
+.contDer{
+    width: 40vw;
+    height: 100%;
+}
+
+.cajaClass{
+    display: flex;
+    margin-left: 3vw;
+}
+
+.producto{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1vw;
+}
+
+.blancspace{
+    width: 15vw;
+}
+
+.entrega{
+    display: flex;
+    width: 7vw;
+}
+
+.precio{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1vw;
+}
+
+.cantidad{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1vw;
+}
+
+.total{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1vw;
+}
+
+.row{
+    display: flex;
+    margin-left: 3vw;
+}
+
+.imgProducto{
+    width: 7vw;
+    height: 10vh;
+    background-image: url('../../assets/celular.png');
+    background-size: 88% 88%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+.descripcionProducto{
+    display: flex;
+    width: 15vw;;
+    height: 10vh;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.precioProducto{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.cantidadProducto{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.totalProducto{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.separator2{
+    height: 100%;
+    width: 0.01vw;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.contDer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+}
+
+.tituloCompra{
+    display: flex;
+    width: 60%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.spantotal{
+    display: flex;
+    margin-left: 2vw;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.numerototal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+    margin-right: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1vw;
+    color: red;
+}
+
+button{
+    width: 55%;
+    height: 6vh;
+    margin-top: 5.5vh;
+    background-color: #00953b;
+    border: #00953b;
+    border-radius: 0.9vw;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1.1em;
+}

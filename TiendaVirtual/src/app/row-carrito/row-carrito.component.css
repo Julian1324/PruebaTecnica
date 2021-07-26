@@ -1,0 +1,66 @@
+.row{
+    display: flex;
+    margin-left: 3vw;
+}
+
+.imgProducto{
+    width: 7vw;
+    height: 10vh;
+    background-image: url('../../assets/celular.png');
+    background-size: 88% 88%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+.descripcionProducto{
+    display: flex;
+    width: 15vw;;
+    height: 10vh;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.precioProducto{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.cantidadProducto{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.totalProducto{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}
+
+.equis{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1vw;
+}

@@ -1,0 +1,14 @@
+<header *ngIf="onlineComponent=='LoginComponent' || onlineComponent=='SignupComponent' || onlineComponent=='InicioComponent'">
+  <div *ngIf="onlineComponent=='LoginComponent' || onlineComponent=='SignupComponent'" class="home" (click)='backHome()'>
+    Back home
+  </div>
+  <nav >
+    <div class="headerOptions" (click)="onLoginClick()"> Ingresar </div>
+
+    <div class="headerOptions" (click)="onSignUpClick()"> Registrarse </div>
+  </nav>
+
+</header>
+
+<app-nav2 *ngIf="onlineComponent=='TiendaComponent' || onlineComponent=='CarritoComponent' || onlineComponent=='CreacionComponent'"></app-nav2>
+<router-outlet (activate)="onActivate($event)"></router-outlet>

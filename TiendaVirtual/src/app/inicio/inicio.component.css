@@ -1,0 +1,170 @@
+
+#inicioContainer{
+    display: flex;
+    /* justify-content: center; */
+    height: 91vh;
+    width: 100vw;
+    background-color: #040e69;
+    overflow: hidden;
+}
+
+#wContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-left: 20vh;
+    width: auto;
+    height: 70vh;
+    position: absolute;
+    background-color: #040e69;
+    /* box-shadow: -2px 5px 88px 0px rgb(0, 0, 0); */
+}
+
+.wtitle{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.8vw;
+    font-weight: bold;
+    color: white;
+}
+
+#hContainer{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    margin-top: 10vh;
+    width: 500%;
+    height: 70%;
+}
+
+.primeralinea{
+    display: flex;
+    height: 50%;
+    margin-left: 80vw;
+    overflow: hidden;
+}
+
+.segundalinea{
+    display: flex;
+    height: 50%;
+    margin-left: 80vw;
+    overflow: hidden;
+}
+
+.foto{
+    margin-right: 2vw;
+    width: 14vw;
+    height: 85%;
+    background-image: url('../../assets/bolsa.png');
+    background-size: cover; 
+    border-radius: 0.5vw;
+}
+
+.wcontent{
+    display: flex;
+    margin-top: 4vh;
+    width: 100%;
+    height: 30vh;
+    background-image: url('../../assets/carritocompras.png');
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+}
+
+input{
+    width: 55%;
+    height: 6vh;
+    padding: 0.5vw;
+    margin-top: 5vh;
+    border-radius: 0.3vw;
+    border: 3px solid rgba(0, 0, 0, 0.192);
+    color: 3px solid rgba(0, 0, 0, 0.192);
+    outline: none;
+    cursor: text;
+    font-size: 1.4vw;
+}
+
+input::placeholder {
+    /* Se aplica específicamente
+       al texto del placeholder */
+    font-size: 1.4vw;
+}
+
+input[type=text] {
+    transition: border 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    border: 3px solid #009adb;
+}
+
+button{
+    width: 25%;
+    height: 6vh;
+    margin-top: 9vh;
+    margin-left: 2vw;
+    background-color: #00953b;
+    border: #00953b;
+    border-radius: 0.3vw;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.inicio2{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    align-items: center;
+    background-color: #121f3d;
+}
+
+.title{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2vw;
+    font-weight: bold;
+    color: white;
+}
+
+.rutaCursos{
+    display: flex;
+    padding-top: 10vh;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fotoRuta{
+    display: flex;
+    margin-right: 2vw;
+    width: 19.5vw;
+    height: 16vh;
+    border-radius: 0.7vw;
+    cursor: pointer;
+}
+
+.logoCurso{
+    width: 15vw;
+    height: 100%;
+    /* background-image: url('../../assets/R.png');
+    background-size: 70% 100%;
+    background-repeat: no-repeat; */
+    border-radius: 0.7vw;
+}
+
+.minicontainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.nombreCurso{
+    font-weight: bold;
+}
